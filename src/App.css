@@ -1,4 +1,22 @@
 .App {
+  background-color: rgb(187, 190, 190);
+  min-height: 100vh;
+}
+
+.registration {
+  background-color: darkcyan;
+  padding: 40px;
+  border-radius: 0px 0px 20px 20px;
+  box-shadow: 10px 10px 50px rgb(93, 107, 107);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.registration h1 {
+  color: #fff;
+  box-shadow: 3px 3px 50px 3px rgb(24, 158, 158);
+  border-radius: 7px;
+  padding: 10px 0;
   text-align: center;
 }
 
@@ -32,6 +50,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
